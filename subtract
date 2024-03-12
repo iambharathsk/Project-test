@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    double num1, num2, result;
+    
+    // Input the first number
+    printf("Enter the first number: ");
+    scanf("%lf", &num1);
+    
+    // Input the second number
+    printf("Enter the second number: ");
+    scanf("%lf", &num2);
+    
+    // Subtract the second number from the first number
+    result = num1 - num2;
+    
+    // Display the result
+    printf("Result: %.2lf\n", result);
+    
+    return 0;
+}
